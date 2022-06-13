@@ -37,7 +37,7 @@ const questions = [
         //Question for contributor
         type: "input", 
         name: "contributor",
-        message: "How can someone contribute to this project?"
+        message: "Who are the contributors to this project?"
     },
     {
         //Question for test
