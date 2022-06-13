@@ -1,4 +1,4 @@
-# fun
+# Fun
 
 ## Table of Contents
 - [Description](#description)
@@ -19,9 +19,7 @@ fun
 fun
 
 ## License 
-
-    [undefined](undefined)
-  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Contributing
 fun
@@ -30,6 +28,6 @@ fun
 fun
 
 ## Questions
-If you have any questions or concerns, email me at fun
+If you have any questions or concerns, email me at f
 
-If you want to view my profile on GitHub, go to [fun](https://github.com/fun)
+If you want to view my profile on GitHub, go to [f](https://github.com/f)

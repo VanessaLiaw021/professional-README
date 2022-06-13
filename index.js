@@ -84,7 +84,10 @@ function writeToFile(fileName, data) {
 function init() {
     
     //Prompt user with question, call the writeToFile() to create the README.md file and get data from genereateMarkdown 
-    inquirer.prompt(questions).then(response => writeToFile("./sample/README.md", generateMarkdown(response)));
+    inquirer.prompt(questions).then(response => {
+        console.log(response);
+        writeToFile("./sample/README.md", generateMarkdown(response));
+    });
 }
 
 //Call the initialize function
