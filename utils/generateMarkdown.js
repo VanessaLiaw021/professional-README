@@ -36,7 +36,7 @@ function renderLicenseBadge(license) {
   } else {
 
     //Return License Badge choice
-    return licenseBadgeChoice;
+    return licenseBadgeChoice = "";
   }
 }
 
@@ -78,16 +78,20 @@ function renderLicenseLink(license) {
   } else {
 
     //Return License Badge choice
-    return licenseLink;
+    return licenseLink = "";
   }
 
 }
 
 //Function that return the license section of a README File
 function renderLicenseSection(license) {
-  return `
-    [${renderLicenseBadge(license)}](${renderLicenseLink(license)})
-  `;
+  let licenseSection = "";
+
+  if (license === "None") {
+    licenseSection = "";
+  }
+  
+  return `[${renderLicenseBadge(license)}](${renderLicenseLink(license)})`;
 }
 
 //Function to create the lmarkdown of a README File
