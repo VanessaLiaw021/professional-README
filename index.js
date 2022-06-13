@@ -2,6 +2,8 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 
+const generateMarkdown = require("./utils/generateMarkdown");
+
 //Array of questions to prompt user with questions
 const questions = [
     {
@@ -61,15 +63,26 @@ const questions = [
     }
 ];
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+//Function to write README file
+function writeToFile(fileName, data) {
 
-// TODO: Create a function to initialize app
+    //WRite file will generated the README File 
+    fs.writeFile(fileName, data, err => {
+
+        //If error exist, display the error 
+        if (err) return console.log(err);
+
+        //Display message if it is generateing the user README based on user inputs 
+        console.log("It's time to preview your generated README.md file.");
+    });
+}
+
+//Function to initialize app
 function init() {
     
     //Prompt user with question, call the writeToFile() to create the README.md file and get data from genereateMarkdown 
-    inquirer.prompt(questions).then(response => writeToFile("./sample/README.md", genereateMarkdown(response)));
+    inquirer.prompt(questions).then(response => writeToFile("./sample/README.md", generateMarkdown(response)));
 }
 
-// Function call to initialize app
+//Call the initialize function
 init();
