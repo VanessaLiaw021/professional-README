@@ -65,7 +65,11 @@ const questions = [
 function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    
+    //Prompt user with question, call the writeToFile() to create the README.md file and get data from genereateMarkdown 
+    inquirer.prompt(questions).then(response => writeToFile("./sample/README.md", genereateMarkdown(response)));
+}
 
 // Function call to initialize app
 init();
