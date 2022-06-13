@@ -92,18 +92,20 @@ function renderLicenseLink(license) {
 function renderLicenseSection(license) {
   let licenseSection = "";
 
-  console.log(license);
-
-  //Check to 
+  //If user click none, then it return an empty string 
   if (license === "None") {
 
+    //Return empty string if no license is chosen
     licenseSection = "";
 
   } else {
      
+    //Return the license badge and link
     licenseSection = `[${renderLicenseBadge(license)}](${renderLicenseLink(license)})`;
+
   }
 
+  //Return license section to display on README file
   return licenseSection;
 }
 
