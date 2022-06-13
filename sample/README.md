@@ -1,6 +1,6 @@
-# README Generator
+# Password Generator
 
-[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
+[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
 
 ## Table of Contents
 - [Description](#description)
@@ -12,16 +12,16 @@
 - [Questions](#questions)
 
 ## Description 
-Within the terminal, when a user enter all prompt, the program will generate a README.md file
+It generate a password based on your inputted choices in terminal
 
 ## Installation
 npm install inqurier
 
 ## Usage
-First clone respostory, then input npm install inqurier in terminal, then node index.js to start the application
+First in terminal, type npm install inqurier, then node index.js command in terminal to start program 
 
 ## License 
-This application is licenses under the ISC license
+This application is licenses under the IBM license
 
 ## Contributing
 None
