@@ -36,7 +36,7 @@ npm install inquirer
 
 - [GitHub Repo](https://github.com/VanessaLiaw021/professional-README-generator)
 
-- [Sample README.md]()
+- [Sample README.md](https://raw.githubusercontent.com/VanessaLiaw021/professional-README-generator/main/sample/README.md)
 
 - [Demo]()
 
