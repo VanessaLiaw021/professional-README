@@ -25,19 +25,19 @@ const questions = [
         //Question for installation
         type: "input", 
         name: "installation",
-        message: "What is the installation of your project (if any)?"
+        message: "What are the required installation of your project (if any)?"
     }, 
     {
         //QUestion for usage
         type: "input", 
         name: "usage",
-        message: "What is the usage information of your project?"
+        message: "How might someone install or use this project?"
     },
     {
         //Question for contributor
         type: "input", 
         name: "contributor",
-        message: "Who are the contributors to your project?"
+        message: "How can someone contribute to this project?"
     },
     {
         //Question for test
@@ -84,10 +84,7 @@ function writeToFile(fileName, data) {
 function init() {
     
     //Prompt user with question, call the writeToFile() to create the README.md file and get data from genereateMarkdown 
-    inquirer.prompt(questions).then(response => {
-        console.log(response);
-        writeToFile("./sample/README.md", generateMarkdown(response));
-    });
+    inquirer.prompt(questions).then(response => writeToFile("./sample/README.md", generateMarkdown(response)));
 }
 
 //Call the initialize function
