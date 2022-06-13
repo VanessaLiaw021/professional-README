@@ -1,7 +1,10 @@
-// TODO: Include packages needed for this application
+//Package for writing to the file system
 const fs = require("fs");
+
+//For prompting user input
 const inquirer = require("inquirer");
 
+//Linking the page for where the README is being developed
 const generateMarkdown = require("./utils/generateMarkdown");
 
 //Array of questions to prompt user with questions
