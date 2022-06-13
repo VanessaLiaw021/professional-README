@@ -1,16 +1,13 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+//Function that return the license badge
 function renderLicenseBadge(license) {}
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
+//Function that return the license link
 function renderLicenseLink(license) {}
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
+//Function that return the license section of a README File
 function renderLicenseSection(license) {}
 
-// TODO: Create a function to generate markdown for README
+//Function to create the lmarkdown of a README File
 function generateMarkdown(data) {
   return `# ${data.title}
 
@@ -48,4 +45,5 @@ If you want to view my profile on GitHub, go to [${data.username}](https://githu
 `;
 }
 
+//Export the generateMarkdown function
 module.exports = generateMarkdown;
