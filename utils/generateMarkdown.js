@@ -1,6 +1,6 @@
 //Function that return the license badge
 function renderLicenseBadge(license) {
-  const licenseBadgeChoice = "";
+  let licenseBadgeChoice = "";
   
   //Check the license that was inputted by the user 
   if (license === "Apache 2.0") {
@@ -42,7 +42,7 @@ function renderLicenseBadge(license) {
 
 //Function that return the license link
 function renderLicenseLink(license) {
-  const licenseLink = "";
+  let licenseLink = "";
 
   //Check the license that was inputted by the user 
   if (license === "Apache 2.0") {
