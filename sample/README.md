@@ -1,6 +1,6 @@
-# Fun
+# README Generator
 
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
 ## Table of Contents
 - [Description](#description)
@@ -12,24 +12,24 @@
 - [Questions](#questions)
 
 ## Description 
-Fun
+Within the terminal, when a user enter all prompt, the program will generate a README.md file
 
 ## Installation
-Fun
+npm install inqurier
 
 ## Usage
-Fun
+First clone respostory, then input npm install inqurier in terminal, then node index.js to start the application
 
 ## License 
-This application is licenses under the Apache 2.0 license
+This application is licenses under the ISC license
 
 ## Contributing
-Fun
+None
 
 ## Tests
-Fun
+npm test
 
 ## Questions
-If you have any questions or concerns, email me at Fun
+If you have any questions or concerns, email me at vliaw021@gmail.com
 
-If you want to view my profile on GitHub, go to [Fun](https://github.com/Fun)
+If you want to view my profile on GitHub, go to [VanessaLiaw021](https://github.com/VanessaLiaw021)
