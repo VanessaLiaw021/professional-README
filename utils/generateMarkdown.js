@@ -44,6 +44,43 @@ function renderLicenseBadge(license) {
 function renderLicenseLink(license) {
   const licenseLink = "";
 
+  //Check the license that was inputted by the user 
+  if (license === "Apache 2.0") {
+
+    //Return the Apache license badge
+    licenseLink = "https://opensource.org/licenses/Apache-2.0";
+
+  } else if (license === "Eclipse") {
+
+    //Return the Eclipse license badge
+    licenseLink = "https://opensource.org/licenses/EPL-1.0";
+
+  } else if (license === "IBM") {
+
+    //Return the IBM license badge
+    licenseLink = "https://opensource.org/licenses/IPL-1.0";
+
+  } else if (license === "ISC") {
+
+    //Return the ISC license badge
+    licenseLink = "https://opensource.org/licenses/ISC";
+
+  } else if (license === "MIT") {
+
+    //Return the MIT license badge
+    licenseLink = "https://opensource.org/licenses/MIT";
+
+  } else if (license === "Mozilla") {
+
+    //Return the Mozilla license badge
+    licenseLink = "https://opensource.org/licenses/MPL-2.0";
+
+  } else {
+
+    //Return License Badge choice
+    return licenseLink;
+  }
+
 }
 
 //Function that return the license section of a README File
