@@ -84,7 +84,11 @@ function renderLicenseLink(license) {
 }
 
 //Function that return the license section of a README File
-function renderLicenseSection(license) {}
+function renderLicenseSection(license) {
+  return `
+    [${renderLicenseBadge(license)}](${renderLicenseLink(license)})
+  `;
+}
 
 //Function to create the lmarkdown of a README File
 function generateMarkdown(data) {
@@ -109,7 +113,7 @@ ${data.installation}
 ${data.usage}
 
 ## License 
-${data.license}
+${renderLicenseSection(data.license)}
 
 ## Contributing
 ${data.contributor}
