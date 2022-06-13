@@ -50,7 +50,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "What is the license of your project (if any)?",
-        choices: ["Apache", "ISC", "Mozilla", "MIT", "None"]
+        choices: ["Apache 2.0", "Eclipse", "IBM", "ISC", "Mozilla", "MIT", "None"]
     },
     {
         //Question for GitHub username
