@@ -120,7 +120,7 @@ ${renderLicenseSection(data.license)}
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Contributor](#contributing)
+- [Contributing](#contributing)
 - [Test](#tests)
 - [Questions](#questions)
 
