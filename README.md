@@ -45,7 +45,7 @@ Once everything has been done correctly and no errors, then in the sample folder
 
 When you open the page it should look like this
 
-
+![Sample README](./images/sample.png)
 
 ## Resources 
 
