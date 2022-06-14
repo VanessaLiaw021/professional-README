@@ -1,6 +1,6 @@
 # Password Generator
 
-[![License: IPL 1.0](https://img.shields.io/badge/License-IPL_1.0-blue.svg)](https://opensource.org/licenses/IPL-1.0)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Table of Contents
 - [Description](#description)
@@ -12,22 +12,22 @@
 - [Questions](#questions)
 
 ## Description 
-It generate a password based on your inputted choices in terminal
+It generate a password based on your inputted choices in terminal 
 
 ## Installation
-npm install inqurier
+npm install inqurier 
 
 ## Usage
-First in terminal, type npm install inqurier, then node index.js command in terminal to start program 
+First in terminal, type npm install inqurier, then node index.js command in terminal to start program
 
 ## License 
-This application is licenses under the IBM license
+This application is licenses under the Apache 2.0 license
 
 ## Contributing
 None
 
 ## Tests
-npm test
+npm test 
 
 ## Questions
 If you have any questions or concerns, email me at vliaw021@gmail.com

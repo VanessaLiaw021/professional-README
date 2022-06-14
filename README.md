@@ -1,12 +1,12 @@
 # Professional-README-Generator
 
 ## Table of Content 
--[Description](#description)
--[Usage](#usage)
--[Installation](#installation)
--[Visuals](#visuals)
--[Resources](#resources)
--[Authors and Acknowledgement](#authors-and-acknowledgement)
+- [Description](#description)
+- [Usage](#usage)
+- [Installation](#installation)
+- [Visuals](#visuals)
+- [Resources](#resources)
+- [Authors and Acknowledgement](#authors-and-acknowledgement)
 
 ## Description 
 
@@ -31,6 +31,17 @@ npm install inquirer
 ```
 
 ## Visuals
+To start this application, type the command "node index.js" (Make sure your in the correct directory)
+
+![Start Program](./images/start-program.png)
+
+Once "node index.js" has been typed in the terminal, you will be prompt with the following questions to create a README File
+
+![Prompt Questions](./images/questions.png)
+
+Once everything has been done correctly and no errors, then in the sample folder should be where the generated README File should be located in
+
+![Sample Folder](./images/sample-README.png)
 
 ## Resources 
 
